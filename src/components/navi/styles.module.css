@@ -1,0 +1,49 @@
+.nav{
+  
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e2e8fe;
+    line-height: 2px;
+    align-items: center;
+    background-color: #4C85A4;
+    
+}
+.right{
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+
+}
+.nav .left{
+    display: flex;
+   
+
+}
+.nav .left .menu{
+    display: flex;
+    margin-left: 40px;
+}
+
+
+.Link{
+    
+    text-decoration: none;
+    font-size:1.1rem;
+    padding: 3px 16px;
+    display: block;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 45px;
+    color: azure;
+
+}
+.nav .left .menu .li a:hover{
+    color: #000;
+}
+.logo img{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+@media(max-width:600px){
+    
+}
