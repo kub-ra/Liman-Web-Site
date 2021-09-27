@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Footer from '../../footer/Footer'
+import Footer from '../footer/Footer'
 import gemi_img from './gemi2.jpg'
 
 import Navi from '../navi/Navi'

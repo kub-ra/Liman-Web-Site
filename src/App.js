@@ -5,12 +5,12 @@ import {
   Route
 } from "react-router-dom";
 import Home from './components/home/Home'
-import Hizmetler from './components/hizmetler/Hizmetler'
+import Hizmetler from './components/hizmetler/Services'
 import Kariyer from './components/kariyer/Kariyer'
 import Medya from './components/medya/Medya'
 
 import Online from './components/online/Online'
-import Hakkımızda from './components/hakkımızda/Hakkımızda'
+import Hakkımızda from './components/hakkımızda/About'
 import Contact from "./components/contact/Contact";
 
 export default function App() {

@@ -1,5 +1,10 @@
 .baslık{
     color: rgb(240, 176, 15);
+    font-size: 25px;
+    margin: 10px;
+}
+.anabaslık{
+    color: black;
     font-size: 30px;
     margin: 10px;
 }
@@ -7,4 +12,13 @@
     background-color: gainsboro;
 
 
+}
+
+.link2:nth-child(odd){
+    background-color: rgb(141, 140, 140);
+    color: honeydew;
+}
+.link2:hover{
+    background-color: gainsboro;
+    color: black;
 }

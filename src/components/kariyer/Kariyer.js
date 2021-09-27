@@ -3,7 +3,7 @@ import Navi from '../navi/Navi'
 import { Button, Form, FormGroup, Label, Input, FormText, Container, Row, Col,ListGroupItem,ListGroup } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import styles from './styles.module.css'
-import Footer from '../../footer/Footer';
+import Footer from '../footer/Footer';
 
 export default class Kariyer extends Component {
     render() {
