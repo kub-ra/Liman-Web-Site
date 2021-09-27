@@ -1,0 +1,26 @@
+.baslık{
+    color: rgb(240, 176, 15);
+    font-size: 30px;
+    margin: 10px;
+}
+.link:hover{
+    background-color: gainsboro;
+
+
+}
+.link2:nth-child(odd){
+    background-color: rgb(141, 140, 140);
+    color: honeydew;
+}
+.baslık2{
+    color: rgb(240, 176, 15);
+    font-size: 25px;
+    margin: 10px;
+
+}
+.form{
+   
+    border: 1px solid rgb(170, 164, 164);
+    padding: 50px;
+    margin-bottom: 50px;
+}

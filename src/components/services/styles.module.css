@@ -1,0 +1,20 @@
+.baslık{
+    color: rgb(240, 176, 15);
+    font-size: 30px;
+    margin: 10px;
+}
+.link:hover{
+    background-color: gainsboro;
+
+
+}
+.sag{
+    margin-top:  50px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+.Button{
+    width: 900px;
+    margin-top: 5px;
+   
+}

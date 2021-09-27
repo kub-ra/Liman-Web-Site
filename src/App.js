@@ -5,13 +5,14 @@ import {
   Route
 } from "react-router-dom";
 import Home from './components/home/Home'
-import Hizmetler from './components/hizmetler/Services'
-import Kariyer from './components/kariyer/Kariyer'
-import Medya from './components/medya/Medya'
 
+
+import Medya from './components/medya/Medya'
 import Online from './components/online/Online'
-import Hakkımızda from './components/hakkımızda/About'
 import Contact from "./components/contact/Contact";
+import Services from "./components/services/Services";
+import About from "./components/About/About";
+import Career from "./components/career/Career";
 
 export default function App() {
   return (
@@ -22,9 +23,9 @@ export default function App() {
           
           
           <Route path="/" exact component={Home}/>
-          <Route path="/Hizmetler" component={Hizmetler}/>
-          <Route path="/Hakkımızda" component={Hakkımızda}/>
-          <Route path="/Kariyer" component={Kariyer}/>
+          <Route path="/Hizmetler" component={Services}/>
+          <Route path="/Hakkımızda" component={About}/>
+          <Route path="/Kariyer" component={Career}/>
           <Route path="/Medya" component={Medya}/>
          
           <Route path="/Online" component={Online}/>
