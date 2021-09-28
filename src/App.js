@@ -7,7 +7,7 @@ import {
 import Home from './components/home/Home'
 
 
-import Medya from './components/medya/Medya'
+import Media from './components/media/Media'
 import Online from './components/online/Online'
 import Contact from "./components/contact/Contact";
 import Services from "./components/services/Services";
@@ -26,7 +26,7 @@ export default function App() {
           <Route path="/Hizmetler" component={Services}/>
           <Route path="/Hakkımızda" component={About}/>
           <Route path="/Kariyer" component={Career}/>
-          <Route path="/Medya" component={Medya}/>
+          <Route path="/Medya" component={Media}/>
          
           <Route path="/Online" component={Online}/>
           <Route path="/Contact" component={Contact}/>
