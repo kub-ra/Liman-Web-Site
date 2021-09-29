@@ -1,0 +1,21 @@
+.baslık{
+    color: rgb(240, 176, 15);
+    font-size: 30px;
+    margin: 10px;
+}
+.link:hover{
+    background-color: gainsboro;
+    color:rgb(240, 176, 15);
+
+
+}
+.link{
+    color: black;
+}
+.icon{
+    float: left;
+}
+.p2{
+    float: left;
+    margin-left: 10px;
+}

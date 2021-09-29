@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Container, Row,ListGroup,ListGroupItem,Col,Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button } from 'reactstrap'
+    CardTitle,  Button } from 'reactstrap'
 import Navi from '../navi/Navi'
 import styles from './styles.module.css'
 import card from './cart-image.jpg'
