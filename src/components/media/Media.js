@@ -4,13 +4,14 @@ import { Container, Row,ListGroup,ListGroupItem,Col,Card, CardImg, CardText, Car
 import Navi from '../navi/Navi'
 import styles from './styles.module.css'
 import card from './cart-image.jpg'
+import Footer from '../footer/Footer'
 
 export default class Media extends Component {
     render() {
         return (
             <div>
                 <Navi />
-     <Container>
+     <Container className={styles.container}>
         <Row>
             <Col xs="3">
             <p className={styles.baslık}>Medya</p>
@@ -90,6 +91,7 @@ export default class Media extends Component {
                         </Col>
                     </Row>
                 </Container>
+                <Footer/>
             </div>
         )
     }

@@ -1,58 +1,70 @@
 import React, { Component } from 'react'
-import { Row } from 'reactstrap'
+import { Col, Row } from 'reactstrap'
 import styles from './styles.module.css'
+import adres from './adres.png'
+import mail from './mail.png'
+import dunya from './dunya.png'
+import facebook from './f-facebook.png'
+import telefon from './telefon.png'
+import instagram from './f-instagram.png'
+import youtube from './f-youtube.png'
+import linkedn from './f-linkedin.png'
+import twitter from './f-twitter.png'
 
 export default class Footer extends Component {
     render() {
         return (
+          <div className={styles.footer}>
+            <Row>
+              <Col className={styles.col} xs="3">
+                <img className={styles.img} src={adres}></img>
+                <h6 className={styles.h}>ADRES</h6>
+                <p className={styles.p2}>Seyhan - Süleymanpaşa, 59020 / Adana</p>
+                <p className={styles.alt}>.......................</p>
+              </Col>
+              <Col className={styles.col} xs="3">
+              <img className={styles.img} src={mail}></img>
+                <h6  className={styles.h2} >MAİL</h6>
+                <p className={styles.p22}>AkdoimPort@gmail.com</p>
+                <p className={styles.alt2}>......................</p>
+              </Col>
+              <Col className={styles.col} xs="3">
+              <img className={styles.img} src={telefon}></img>
+                <h6  className={styles.h}>TELEFON</h6>
+                <p className={styles.p22}>+ 90 (222) 222  (2222)</p>
+                <p className={styles.alt2}>....................</p>
+              </Col>
+              <Col className={styles.col} xs="3">
+              <img className={styles.img} src={dunya}></img>
+                <h6  className={styles.p23}> BİLGİ TOPLUMU HİZMETLERİ</h6>
+                
+                <p className={styles.alt2}>....................</p>
+              </Col>
+              <hr className={styles.hr}/>
+            </Row>
+            <Row>
+              <Col className={styles.col} xs="4">
+                <h6 className={styles.h6}>Akdoimport 2021 © Tüm Hakları Saklıdır.</h6>
+              </Col>
+              <Col  xs="4">
+                <div className={styles.imgs}>
+                <img className={styles.img2} src={linkedn}></img>
+                <img className={styles.img2} src={youtube}></img>
+                <img className={styles.img2} src={instagram}></img>
+                <img className={styles.img2} src={facebook}></img>
+                <img className={styles.img2} src={twitter}></img>
+                </div>
+                
+              </Col>
+              <Col className={styles.col} xs="4">
+                <h6 className={styles.h6}>web tasarım K.Menziletoğlu</h6>
+              </Col>
+            </Row>
+          </div>
            
                 
 
 
-  <footer  className={styles.footer}>
-   <Row className={styles.row}>
-      <div class="col-2">
-        <h5>Hizmetler</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-        </ul>
-      </div>
-
-      <div class="col-2">
-        <h5>Kariyer</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-        </ul>
-      </div>
-
-      <div class="col-2">
-        <h5>Kontayner</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-        </ul>
-      </div>
-
-      
-      </Row>
-
-    <div class="d-flex justify-content-between py-4 my-4 border-top">
-      <p>&copy; 2021 Company, Inc. All rights reserved.</p>
-      
-    </div>
-  </footer>
-  
         )
+      }
     }
-}

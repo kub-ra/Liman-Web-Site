@@ -5,6 +5,7 @@ import { Container, Row, Col, ListGroup, ListGroupItem } from 'reactstrap'
 
 import { Button, Popover, PopoverBody } from 'reactstrap';
 import { Link } from 'react-router-dom'
+import Footer from '../footer/Footer';
 
 
 
@@ -22,7 +23,7 @@ import { Link } from 'react-router-dom'
         return (
             <div>
                 <Navi />
-                <Container>
+                <Container className={styles.container}> 
                     <Row>
                         <Col xs="3">
                             <p className={styles.baslık}>Hizmetler</p>
@@ -61,6 +62,7 @@ import { Link } from 'react-router-dom'
                     </Row>
 
                 </Container>
+                <Footer/>
             </div>
         )
     }

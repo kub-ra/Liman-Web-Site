@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Navi from '../navi/Navi'
+import Footer from '../footer/Footer'
 import styles from './styles.module.css'
 import { Container, Row, Col, ListGroup, ListGroupItem } from 'reactstrap'
 import { Link } from 'react-router-dom'
@@ -9,7 +10,7 @@ export default class About extends Component {
         return (
             <div>
                 <Navi />
- <Container>
+ <Container className={styles.container}>
     <Row>
      <Col xs="3">
                             
@@ -61,6 +62,7 @@ export default class About extends Component {
         
 
                 </Container>
+                <Footer/>
             </div>
         )
     }

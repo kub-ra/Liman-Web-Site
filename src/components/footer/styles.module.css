@@ -1,19 +1,69 @@
-.b-example-divider {
-    height: 3rem;
-    background-color: rgba(0, 0, 0, .1);
-    border: solid rgba(0, 0, 0, .15);
-    border-width: 1px 0;
-    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-  }
+
   
-  .bi {
-    vertical-align: -.125em;
-    fill: currentColor;
-  }
+ 
   .footer{
-      background-color: rgb(250, 249, 249);
+      background-color: rgb(99, 97, 97);
+      height: 300px;
+      
    
   }
-  .row{
-      margin-top: 50px;
+  .col{
+    margin-top: 50px;
+   
   }
+  .p{
+    margin-left: 10px;
+  }
+  .img{
+    margin-left: 90px;
+    margin-top: 50px;
+  }
+  .h{
+    margin-left: 80px;
+    margin-top: 12px;
+    color: white;
+  }
+  .p2{
+    margin-left: 10px;
+    color: white;
+  }
+  .alt{
+    margin-left: 60px;
+    color: white;
+  }
+  .h2{
+    margin-left: 90px;
+    margin-top: 12px;
+    color: white;
+  }
+  .p22{
+    margin-left: 20px;
+    color: white;
+  }
+  .alt2{
+    margin-left: 60px;
+    color: white;
+  }
+  .p23{
+    
+    color: white;
+    margin-top: 10px;
+  }
+  .hr{
+    color: white;
+    margin-top: 50px;
+  }
+  .h6{
+    color: white;
+    margin-left: 50px;
+    margin-top: 70px;
+  }
+  .img2{
+    float: left;
+    margin-left: 5px;
+    margin-top: 70px;
+  }
+  .imgs{
+    margin-left: 50px;
+  }
+  

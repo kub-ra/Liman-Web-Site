@@ -6,13 +6,14 @@ import faks from './image/faks.png'
 import adres from './image/adres.png'
 import mail from './image/mail.png'
 import telefon from './image/telefon.png'
+import Footer from '../footer/Footer'
 
 export default class Contact extends Component {
     render() {
         return (
             <div>
                 <Navi/>
-                <Container>
+                <Container className={styles.container}>
                     <Row>
                         <Col xs="3">
                         <p className={styles.baslık}>İletişim</p>
@@ -50,6 +51,7 @@ export default class Contact extends Component {
                         </Col>
                     </Row>
                 </Container>
+                <Footer></Footer>
             </div>
         )
     }

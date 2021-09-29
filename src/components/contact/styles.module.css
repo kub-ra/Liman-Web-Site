@@ -17,5 +17,8 @@
 }
 .p2{
     float: left;
-    margin-left: 10px;
+    margin-left: 20px;
+}
+.container{
+    margin-bottom: 100px;
 }
